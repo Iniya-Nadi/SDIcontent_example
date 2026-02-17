@@ -27,7 +27,7 @@ app.post("/users", (req, res) => {
 
 // ================= READ =================
 // GET /users
-app.get("/users", (req, res) => {
+app.get("/employee", (req, res) => {
   res.send(users);
 });
 
